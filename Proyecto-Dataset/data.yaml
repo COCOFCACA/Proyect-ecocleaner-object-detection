@@ -1,14 +1,7 @@
 
-train: /content/drive/MyDrive/Proyecto 4to-Ecocleaner/Dataset-Roboflow/Proyecto Dataset/train
-val: /content/drive/MyDrive/Proyecto 4to-Ecocleaner/Dataset-Roboflow/Proyecto Dataset/valid
+train: C:/Users/48243498/Documents/GitHub/Proyecto-Ecocleaner/Proyecto-Dataset/train
+val: C:/Users/48243498/Documents/GitHub/Proyecto-Ecocleaner/Proyecto-Dataset/valid
 
-nc: 7  # Número de clases basado en _classes.txt
-names:
-  - 'Bolsa-de-nilon'
-  - 'Bolsa-de-plastico'
-  - 'Botella de plastico'
-  - 'Lata'
-  - 'Paquete de plastico'
-  - 'Plastico descartable'
-  - 'Recipiente plastico'
-  
+# Crear la carpeta 'data' si no existe
+os.makedirs(os.path.dirname(yaml_path), exist_ok=True)
+
