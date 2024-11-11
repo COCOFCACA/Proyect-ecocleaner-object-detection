@@ -1,0 +1,14 @@
+
+train: /content/drive/MyDrive/Proyecto 4to-Ecocleaner/Dataset-Roboflow/Proyecto Dataset/train
+val: /content/drive/MyDrive/Proyecto 4to-Ecocleaner/Dataset-Roboflow/Proyecto Dataset/valid
+
+nc: 7  # Número de clases basado en _classes.txt
+names:
+  - 'Bolsa-de-nilon'
+  - 'Bolsa-de-plastico'
+  - 'Botella de plastico'
+  - 'Lata'
+  - 'Paquete de plastico'
+  - 'Plastico descartable'
+  - 'Recipiente plastico'
+  
