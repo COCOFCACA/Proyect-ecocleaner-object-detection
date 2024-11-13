@@ -1,6 +1,7 @@
 
 train: "C:/Users/48243498/Documents/GitHub/Proyecto-Ecocleaner/Proyecto-Dataset/train"
 val: "C:/Users/48243498/Documents/GitHub/Proyecto-Ecocleaner/Proyecto-Dataset/valid"
+
 nc: 7
 names:
   0: "Bolsa-de-nilon"

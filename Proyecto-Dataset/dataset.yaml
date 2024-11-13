@@ -1,0 +1,7 @@
+
+train: C:/Users/48243498/Desktop/Proyecto-Dataset/train
+val: C:/Users/48243498/Desktop/Proyecto-Dataset/valid
+
+# Crear la carpeta 'data' si no existe
+os.makedirs(os.path.dirname(yaml_path), exist_ok=True)
+
